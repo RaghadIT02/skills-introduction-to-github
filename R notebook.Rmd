@@ -1,0 +1,58 @@
+---
+title: "Heart Attack"
+
+output: html_notebook
+---
+
+
+
+
+
+
+
+
+## The goal of collecting this dataset 
+
+
+
+
+## The source of the dataset, include link\URL 
+
+The dataset was sourced from the kaggle website in this URL:
+https://www.kaggle.com/datasets/pritsheta/heart-attack 
+
+## General information 
+
+1- Number of Attributes: 14
+2- Number of Objects: 303
+3- Type of Attributes:
+
+| Attribute name    | Data type |            Description             |
+|-------------------|-----------|------------------------------------|
+|age                |Numeric    |Age (in years)                      |
+|sex                |Binary     |gender (1 = male; 0 = female)       |
+|cp                 |Numeric    |Chest Pain type                     |
+|trestbps           |Numeric    |resting blood pressure              |
+|chol               |Numeric    |serum cholesterol in mg/dL          |
+|fbs                |Binary     |fasting blood sugar> 120 mg/dL 
+                                (likely to be diabetic) 1=true;0=false|
+|reatecg            |Binary     |Resting electrocardiogram results  
+                                 0: normal -- Value 1: having ST-T wave abnormality|
+|exang              |Binary     | exercise induced angina            |
+|                   |Nominal    |The housing situation rent or owned | 
+|                   |Nominal    |good or bad credit risks            |
+
+
+
+
+
+
+
+
+
+
+## Summary of the dataset
+nrow(dataset) #number of rows
+ncol(dataset) #number of columns
+
+summary(dataset)
